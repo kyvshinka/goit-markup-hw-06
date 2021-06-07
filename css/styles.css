@@ -880,7 +880,7 @@ height: 120px;
   outline: none;
 }
 
-.modal-form-input:focus + .modal-icon {
+.modal-form-input:focus + .modal-icons {
   fill: var(--accent-color);
 }
 
@@ -944,10 +944,6 @@ margin: 0 auto;
   background-image: url(../images/icon-checked.svg);
   border: none;
 }
-
-/* .modal-form-checkbox:not(:checked) + .modal-form-checkbox-policy::before {
-  border-color: var(--main-color);
-}  */
 
 .modal-form-checkbox:focus + .modal-form-checkbox-policy::before {
   border-color: var(--accent-color);
