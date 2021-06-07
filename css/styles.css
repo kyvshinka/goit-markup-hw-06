@@ -263,6 +263,7 @@ body {
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--contrast-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
   transition: background-color var(--animation-duration) var(--animation-timing-function);
 }
@@ -770,11 +771,17 @@ height: 120px;
   color: var(--contrast-color);
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
   padding: 10px 28px;
+  transition: box-shadow var(--animation-duration) var(--animation-timing-function), background-color var(--animation-duration) var(--animation-timing-function);
 }
 
-/*--------- ENDFOOTER MODAL WINDOW---------*/
+.footer-modal-btn:hover,
+.footer-modal-btn:focus {
+  background-color: #188ce8;
+  box-shadow: 2px 2px 4px rgba(255, 255, 255, 0.15);
+}
+
+/*--------- END FOOTER MODAL WINDOW---------*/
 
 /*---------MODAL WINDOW---------*/
 
@@ -980,11 +987,10 @@ margin: 0 auto;
   letter-spacing: 0.06em;
   background-color: var(--accent-color);
   color: var(--contrast-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   padding: 10px 32px;
-  transition: background-color var(--animation-duration) var(--animation-timing-function);
   margin-top: 30px;
   transition: background-color var(--animation-duration) var(--animation-timing-function);
-
 }
 
 
