@@ -997,6 +997,8 @@ margin: 0 auto;
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: #188ce8;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+
   outline: none;
 }
 
